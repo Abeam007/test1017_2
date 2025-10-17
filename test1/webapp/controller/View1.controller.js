@@ -6,7 +6,7 @@ function (Controller) {
 
     return Controller.extend("test1.controller.View1", {
         onInit: function () {
-
+            var omodel = this.getView().getModel();
         }
     });
 });
